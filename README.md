@@ -24,4 +24,4 @@ The pipeline contains of 5 components:
 
 # Features & Artifacts
 
-Througut the pipeline feaures get lgged via the MLFlow. We also record plots and models which allow to keep version control of the model and track its performance.
+Througut the pipeline feaures get lщgged via the MLFlow. We also record plots and models which allow to keep version control of the model and track its performance.
