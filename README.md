@@ -1,5 +1,5 @@
 # azurml_pipelines_in_action
-This repository contains code for ensemble model deployment.
+This repository contains code for ensemble model deployment. Don't forget to rate a star ⭐ if you find content insightful, helping or interesting.
 
 # Data
 
