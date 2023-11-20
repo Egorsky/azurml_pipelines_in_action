@@ -20,8 +20,8 @@ The pipeline contains of 5 components:
 - Model forecasting. Reads model and data from the previous step, makes forecast and creates extended `DataFrame`
 - Feature creation. Here feautres like lags and movig average are created
 - Prophet model training. Component gets data with features from the previous steps and trains model
-- Forecasting of the complaints. The component gets model and data from the previous component and makes forecast which further on gets uploaded into the Blob Storage Conatiner as a `csv` file.
+- Forecasting of the complaints. The component gets model and data from the previous step and makes forecast which further on gets uploaded into the Blob Storage Conatiner as a `csv` file using `Connection String`.
 
 # Features & Artifacts
 
-Througut the pipeline feaures get lщgged via the MLFlow. We also record plots and models which allow to keep version control of the model and track its performance.
+Througut the pipeline feaures get logged via the MLFlow. We also record plots and models which allow to keep version control of the model and track its performance.
